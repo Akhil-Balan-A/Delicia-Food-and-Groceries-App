@@ -1,0 +1,46 @@
+
+/*About Us page styles*/
+
+.about-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #edecec; 
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  border-radius: 8px;
+}
+
+.about-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.about-intro {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.about-section {
+  margin-bottom: 2rem;
+}
+
+.about-section h2 {
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.about-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.about-section li {
+  margin-bottom: 0.5rem;
+}
+
+
