@@ -4,27 +4,16 @@ const RestaurantCards = (props) => {
   const { image, alt, name, rating, deliveryTime, cuisines, place,offer,priceStartsFrom,id} =
     resData ?? {};
   return (
-    <section className="restaurant-cards">
-      <div key={id} className="card">
+    <section >
+      <div key={id} className="bg-white p-3 border border-gray-300 shadow-md rounded flex flex-col justify-between gap-5 cursor-pointer m-1 hover:scale-105 hover:border-gray-500 transition-transform duration-200 h-full">
         {/*make the entire card clickable*/}
-        <Link to={`/restaurant/${id}`} className="card-link">
-         <div className="image-container" style={{ position: "relative" }}>
-          <img src={image} alt={alt} />
+        <Link to={`/restaurant/${id}`} className="no-underline text-black">
+         <div className="relative" >
+          <img src={image} alt={alt} className="w-full h-[220px] object-cover rounded mb-3"/>
           {/* Offer Badge */}
           {offer && (
             <div
-              className="offer-badge"
-              style={{
-                position: "absolute",
-                bottom: "20px",
-                left: "8px",
-                backgroundColor: "rgba(173, 75, 37, 0.85)", // semi-transparent orange
-                color: "white",
-                padding: "4px 8px",
-                borderRadius: "4px",
-                fontSize: "12px",
-                fontWeight: "bold",
-              }}
+              className="absolute bottom-2 left-2 bg-orange-700/50 text-white py-1 px-2 rounded text-xs font-semibold"
             >
               🏷️ Items offered at {offer}% <br/>
               ₹ Price starts from Rs.{priceStartsFrom}.
@@ -32,13 +21,12 @@ const RestaurantCards = (props) => {
           )}
         </div>
         
-        <h3>{name}</h3>
-        <h4>
+        <h3 className="text-lg font-semibold ">{name}</h3>
+        <h4 className="text-base text-green-700">
           ⭐{rating}| {deliveryTime}
         </h4>
-        <p>😋{cuisines}</p>
-          <p>📍{place}</p>
-      
+        <p className="text-sm font-semibold text-gray-700">😋{cuisines}</p>
+        <p className="text-sm font-semibold text-gray-700">📍{place}</p>
       </Link>
       </div>
     </section>

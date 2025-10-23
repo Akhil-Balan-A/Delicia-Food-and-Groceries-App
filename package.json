@@ -4,7 +4,7 @@
   "description": "",
   "source": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": "parcel index.html --port 3000",
     "build": "parcel build index.html",
     "clean": "powershell Remove-Item -Recurse -Force dist",
@@ -13,20 +13,31 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@reduxjs/toolkit": "^2.9.1",
     "@remix-run/router": "^1.23.0",
-    "@tailwindcss/postcss": "^4.1.13",
     "formik": "^2.4.6",
+    "framer-motion": "^12.23.22",
     "parcel": "^2.15.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-redux": "^9.2.0",
     "react-router": "^6.30.1",
     "react-router-dom": "^6.30.1",
     "react-slick": "^0.31.0",
     "slick-carousel": "^1.8.1",
-    "tailwindcss": "^4.1.13",
     "yup": "^1.7.0"
   },
   "devDependencies": {
-    "process": "^0.11.10"
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
+    "@tailwindcss/postcss": "^4.1.13",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "babel-jest": "^30.2.0",
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0",
+    "process": "^0.11.10",
+    "tailwindcss": "^4.1.13"
   }
 }

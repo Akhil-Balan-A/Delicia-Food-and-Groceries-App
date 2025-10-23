@@ -19,8 +19,9 @@ const Search = ({onSearch}) => {
   }
 
   return (
-    <div className="search-bar" style={{ position: "relative", width: "100%" }}>
+    <div className="flex-1 min-w-[400px] max-w-full" style={{ position: "relative", width: "100%" }}>
       <input
+        className="p-1.5 w-full border-0 rounded-xl outline-none bg-white text-gray-800"
         type="text"
         id="search"
         placeholder="Search for Restaurants, food items"

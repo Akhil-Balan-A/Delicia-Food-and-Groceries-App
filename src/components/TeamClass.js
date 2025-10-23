@@ -61,7 +61,7 @@ class TeamClass extends React.Component {
       responsive: [{ breakpoint: 768, settings: { slidesToShow: 1 } }],
     };
     return (
-      <div className="team-container">
+      <div className="team-container ">
         {members.length === 0 ? (
         
           <div className="aboutus-shimmer-container">
@@ -70,22 +70,22 @@ class TeamClass extends React.Component {
         ): (
           <Slider {...settings}>
           {members.map((member) => (
-            <div key={member.id} className="team-member">
-              <img src={member.image} alt={member.name} />
-              <h3>Name: {member.name}</h3>
-              <p>
+            <div key={member.id} className="team-member border h-[480px] p-3 text-center rounded mt-12">
+              <img src={member.image} alt={member.name} className="w-48 h-48 rounded-full object-cover mb-4 m-auto" />
+              <h3 className="text-xl font-semibold text-gray-800 mb-2" >Name: {member.name}</h3>
+              <p className="text-gray-600 mb-1">
                 <strong>Role:</strong> {member.role}
               </p>
-              <p>
+              <p className="text-gray-600 mb-1">
                 <strong>Experience:</strong> {member.experience}
               </p>
-              <p>
+              <p className="text-gray-600 mb-1">
                 <strong>Skills:</strong> {member.skills.join(", ")}
               </p>
-              <p>
+              <p className="text-gray-600 mb-1">
                 <strong>Phone:</strong> {member.contact.phone}
               </p>
-              <p>
+              <p className="text-gray-600">
                 <strong>Email:</strong> {member.contact.email}
               </p>
             </div>
