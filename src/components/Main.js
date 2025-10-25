@@ -3,7 +3,7 @@ import FoodCarousel from "./FoodCarousel";
 import Filter from "./Filter";
 import RestaurantCards from "./RestaurantCards";
 import Shimmer from "./Shimmer/ShimmerMain.js";
-import { useOutletContext } from "react-router-dom";
+import { useOutletContext } from "react-router-dom";//used to get the data from the parent component
 import ErrorPage from "./ErrorPage.js";
 import useRestaurantCards from "../utils/useRestaurantCards.js";
 import withPromotedLable from "../hoc/withPromotedLabel.js";

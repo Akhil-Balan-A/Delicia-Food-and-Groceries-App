@@ -62,51 +62,57 @@ const AppLayout = () => {
   );
 };
 
-const appRouter = createBrowserRouter([
+const appRouter = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <AppLayout />,
+      children: [
+        {
+          path: "/",
+          element: <Main />,
+        },
+        {
+          path: "/about-us",
+          element: <AboutUs />,
+        },
+        {
+          path: "/about-us-class",
+          element: <AboutUsClass />,
+        },
+        {
+          path: "/contact-us",
+          element: <ContactUs />,
+        },
+        {
+          path: "/grocery",
+          element: (
+            <Suspense fallback={<Shimmer />}>
+              <Grocery />
+            </Suspense>
+          ),
+        },
+        {
+          path: "/restaurant/:restId",
+          element: <Restaurant />,
+        },
+        {
+          path: "/cart",
+          element: <Cart />,
+        },
+      ],
+      errorElement: <ErrorPage />,
+    },
+  ],
   {
-    path: "/",
-    element: <AppLayout />,
-    children: [
-      {
-        path: "/",
-        element: <Main />,
-      },
-      {
-        path: "/about-us",
-        element: <AboutUs />,
-      },
-      {
-        path: "/about-us-class",
-        element: <AboutUsClass />, //link is not given any whre os use it directly to check how calss component works
-      },
-      {
-        path: "/contact-us",
-        element: <ContactUs />,
-      },
-      {
-        path: "/grocery",
-        element: (
-          <Suspense
-            fallback={
-              <Shimmer />
-            } /*{<div>Loading...</div>*/ /*or can put shimmer*/
-          >
-            <Grocery />
-          </Suspense>
-        ),
-      },
-      {
-        path: "/restaurant/:restId",
-        element: <Restaurant />,
-      },
-      {
-        path: "/cart",
-        element: <Cart />,
-      },
-    ],
-    errorElement: <ErrorPage />,
-  },
-]);
+    // ✅ Future-proof flags for React Router v7
+    future: {
+      v7_startTransition: true,
+      v7_relativeSplatPath: true,
+    },
+  }
+);
+
 
 const rootElement = document.getElementById("root");
 const rootDOM = ReactDOM.createRoot(rootElement);

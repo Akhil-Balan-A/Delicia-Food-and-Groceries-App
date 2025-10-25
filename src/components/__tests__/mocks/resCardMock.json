@@ -1,0 +1,692 @@
+{"restaurants":[
+{
+    "id": 1,
+    "name": "SaravanBavan Veg Restaurant",
+    "cuisines": "South Indian, Snacks",
+    "rating": 4.2,
+    "promoted": true,
+    "deliveryTime": "25-30 mins",
+    "minDeliveryTime": 25,
+    "maxDeliveryTime": 30,
+    "isVeg": true,
+    "offer": 15,
+    "priceStartsFrom": 120,
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/9/12/ab00e8ba-e1df-44ee-828f-c3e97e2c3567_ba7ea063-0a19-4c7c-9612-7aefbbab437d.jpg_compressed",
+    "alt": "SaravanBavan Veg Restaurant",
+    "place": "Kuruppam Road",
+    "masterDishList": [
+        {
+            "dishId": "1-PVR",
+            "name": "Paneer Butter Masala",
+            "price": 132,
+            "isVeg": true,
+            "rating": 4.5,
+            "description": "A flavourful preparataion with soft paneer cubes simmered in a rich and thick and tomato and onion based gravy served with butter on top",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/1a9c4a96bf6a8129958f36c88a57e927"
+        },
+        {
+            "dishId": "2-PVR",
+            "name": "Gobi Manchurian (Dry)",
+            "price": 127,
+            "isVeg": true,
+            "rating": 4.5,
+            "description": "Indo Chinese appetizer made with deep fried battered gobi florets tossed in Chinese Manchurian sauces.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/pzbkzoxnqxm7dt3mjwps"
+        },
+        {
+            "dishId": "3-PVR",
+            "name": "Gobi Manchurian",
+            "price": 115,
+            "isVeg": true,
+            "rating": 4.5,
+            "description": "A delectable combination of flavors and textures, this veggie Main Course will tantalize your taste buds with its mouthwatering appeal.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/72293f258055bbc256c14f54bcba0aa0"
+        },
+        {
+            "dishId": "4-PVR",
+            "name": "Paneer Tikka",
+            "price": 144,
+            "isVeg": true,
+            "rating": 4.7,
+            "description": "Perfectly marinated cottage cheeese cubes roasted to perfection in tandoor along with onions and bell peppers.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/51568ad40c0032ea8330253ab894681b"
+        },
+        {
+            "dishId": "5-PVR",
+            "name": "Kadai Paneer",
+            "price": 132,
+            "isVeg": true,
+            "rating": 4.7,
+            "description": "Kadaai paneer is a delicious Indian vegetarian dish comprising of paneer cooked in a gravy flavored with a special kadai masala.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/vpiqqk7ihurewzk9rqkm"
+        },
+        {
+            "dishId": "6-PVR",
+            "name": "Chilli Gobi (Dry)",
+            "price": 115,
+            "isVeg": true,
+            "rating": 4.9,
+            "description": "A delectable vegetarian delight with a tantalizing blend of flavors and textures, perfect for a satisfying main course option.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/kygsirtsrgdrpw7wb7zb"
+        },
+        {
+            "dishId": "7-PVR",
+            "name": "Chilli Paneer (Dry)",
+            "price": 150,
+            "isVeg": true,
+            "rating": 4.9,
+            "description": "Chilli paneer is a popular Indo-Chinese starter made by seasoning fried Indian cottage cheese aka paneer in chilli sauce.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/m5hoyx38vm8uwczbvypy"
+        },
+        {
+            "dishId": "8-PVR",
+            "name": "Aloo Gobi",
+            "price": 104,
+            "isVeg": true,
+            "rating": 4.6,
+            "description": "A flavorful and comforting main course featuring a blend of potatoes and cauliflower.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/kzu8n7vkglcfjo4tbxss"
+        },
+        {
+            "dishId": "9-PVR",
+            "name": "Masala Dosa",
+            "price": 68,
+            "isVeg": true,
+            "rating": 4.9,
+            "description": "A flavorful South Indian delicacy with a crispy and golden exterior, encasing a delectable filling, perfect for breakfast enthusiasts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/l56ly1rnxhq4t8eaujig"
+        },
+        {
+            "dishId": "10-PVR",
+            "name": "Ghee Roast",
+            "price": 69,
+            "isVeg": true,
+            "rating": 4.9,
+            "description": "A mouthwatering vegetarian delight packed with rich flavors and a golden crust.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/cose1gvlxphmsuzl7rml"
+        },
+        {
+            "dishId": "11-PVR",
+            "name": "Onion Uthappam",
+            "price": 69,
+            "isVeg": true,
+            "rating": 4.5,
+            "description": " Dosa with onions mixed into the batter and spread to a thick consistency served with 3 types of flavorful chutney and sambhar.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/iepy5bh25pynxqleauh5"
+        },
+        {
+            "dishId": "12-PVR",
+            "name": "Chilli Paratha",
+            "price": 86,
+            "isVeg": true,
+            "rating": 4.3,
+            "description": "A flavorsome and enticing Indian flatbread filled with delectable goodness, perfect for a satisfying and hearty main course experience.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/3/12/fe3f5fc3-5e51-43ac-87b5-54be17d57897_e70e046e-e402-40c8-82f3-27f5833cca1a.jpeg"
+        },
+        {
+            "dishId": "13-PVR",
+            "name": "Channa Masala",
+            "price": 92,
+            "isVeg": true,
+            "rating": 4.4,
+            "description": "A flavorful and aromatic Indian delicacy with tender chickpeas in a rich tomato-based gravy.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2025/1/18/8034cc4b-408e-4400-adc5-0125554365d7_eee26ba2-e6e1-48d7-a836-2a1e7ae686d4.JPG"
+        },
+        {
+            "dishId": "14-PVR",
+            "name": "Channa Bhatoore",
+            "price": 81,
+            "isVeg": true,
+            "rating": 5,
+            "description": "A flavorful and aromatic Indian delicacy with tender chickpeas in a rich tomato-based gravy with batoore.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/3/12/fd2a6dba-3b26-480d-81f0-5f2f5bf8aa01_ecb00957-d852-47d4-bfee-c807ae245b14.jpg"
+        },
+        {
+            "dishId": "15-PVR",
+            "name": "Chapathi Set",
+            "price": 63,
+            "isVeg": true,
+            "rating": 4.1,
+            "description": "[2 Pcs] Round, unleavened flatbreads made with whole wheat flour",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/3/12/19906d1f-374f-46ab-8dca-de67d3f5a3a3_5ec3bc32-4f0d-4fe8-b8fb-e6f0b4b8fd08.jpg_compressed"
+        },
+        {
+            "dishId": "16-PVR",
+            "name": "Poori Masala",
+            "price": 63,
+            "isVeg": true,
+            "rating": 4.6,
+            "description": "Fluffy fried bread served with flavorful potato curry, a classic South Indian favorite.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/3/12/12edd50f-a086-4304-920c-b5175309cb8f_03a342aa-52a8-4ecc-b893-0f27fdd15731.jpg_compressed"
+        },
+        {
+            "dishId": "17-PVR",
+            "name": "Sambar Vada",
+            "price": 46,
+            "isVeg": true,
+            "rating": 4.8,
+            "description": "A mouthwatering South Indian delicacy with a crispy vada immersed in flavorful sambar.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/3/12/2a8e6bcd-a98c-4cc4-b9aa-83ab1bb92b5f_2128bac2-daea-438b-bc0b-0cbc0e2b852b.jpg_compressed"
+        },
+        {
+            "dishId": "18-PVR",
+            "name": "Veg Fried Rice",
+            "price": 92,
+            "isVeg": true,
+            "rating": 4.9,
+            "description": "A flavorful and satisfying rice dish packed with a medley of vegetables and delightful seasonings.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/a1af5ebcdb868f3f549b253d4ea715d7"
+        },
+        {
+            "dishId": "19-PVR",
+            "name": "Veg Biriyari",
+            "price": 92,
+            "isVeg": true,
+            "rating": 4.7,
+            "description": "A flavorful rice dish with a harmonious blend of aromatic spices and savory vegetables.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/68e57aaf4239dd1a6f612f8f807dd564"
+        },
+        {
+            "dishId": "20-PVR",
+            "name": "Veg Noodles",
+            "price": 98,
+            "isVeg": true,
+            "rating": 5,
+            "description": "A delectable and flavorsome medley of vegetables mixed with delicate strands of noodles.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/k85tmoa9ewpme8ot8fbi"
+        },
+        {
+            "dishId": "21-PVR",
+            "name": "Masala Tea",
+            "price": 35,
+            "isVeg": true,
+            "rating": 5,
+            "description": "Indulge in a rich and aromatic hot beverage, bursting with exotic flavors and warm spices.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2025/1/20/b55cadd0-663f-4d94-8b7f-3c6dd2bc149b_53f806da-b42b-427a-98c9-059d7a8dfc45.JPG"
+        },
+        {
+            "dishId": "22-PVR",
+            "name": "Uzhunu Vada",
+            "price": 18,
+            "isVeg": true,
+            "rating": 4.2,
+            "description": "A crispy and savory South Indian delight, perfect for savoring during tea time or as a tasty snack.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/8/22/324eac67-7ce7-4804-8e41-94a907a2e671_85d76f10-db99-4493-98ea-e82eb216ae2f.jpg"
+        }
+    ],
+    "menu": [
+        {
+            "categoryId": 1,
+            "category": "Starters",
+            "availableTime": [
+                {
+                    "start": "11:00",
+                    "end": "23:00"
+                }
+            ],
+            "dishIds": [
+                "2-PVR",
+                "4-PVR",
+                "6-PVR",
+                "7-PVR"
+            ]
+        },
+        {
+            "categoryId": 2,
+            "category": "Breakfast",
+            "availableTime": [
+                {
+                    "start": "07:00",
+                    "end": "11:00"
+                }
+            ],
+            "dishIds": [
+                "9-PVR",
+                "10-PVR",
+                "11-PVR",
+                "14-PVR",
+                "15-PVR",
+                "16-PVR",
+                "17-PVR",
+                "22-PVR",
+                "21-PVR"
+            ]
+        },
+        {
+            "categoryId": 3,
+            "category": "Lunch",
+            "availableTime": [
+                {
+                    "start": "12:00",
+                    "end": "15:30"
+                }
+            ],
+            "dishIds": [
+                "1-PVR",
+                "3-PVR",
+                "5-PVR",
+                "8-PVR",
+                "12-PVR",
+                "13-PVR",
+                "15-PVR",
+                "18-PVR",
+                "19-PVR",
+                "20-PVR"
+            ]
+        },
+        {
+            "categoryId": 4,
+            "category": "Dinner",
+            "availableTime": [
+                {
+                    "start": "19:00",
+                    "end": "23:00"
+                }
+            ],
+            "dishIds": [
+                "1-PVR",
+                "3-PVR",
+                "5-PVR",
+                "8-PVR",
+                "12-PVR",
+                "13-PVR",
+                "15-PVR",
+                "18-PVR",
+                "19-PVR",
+                "20-PVR"
+            ]
+        },
+        {
+            "categoryId": 5,
+            "category": "Snacks",
+            "availableTime": [
+                {
+                    "start": "07:00",
+                    "end": "11:00"
+                },
+                {
+                    "start": "16:00",
+                    "end": "22:00"
+                }
+            ],
+            "dishIds": [
+                "17-PVR",
+                "22-PVR"
+            ]
+        },
+        {
+            "categoryId": 6,
+            "category": "Special",
+            "availableTime": [
+                {
+                    "start": "11:00",
+                    "end": "15:30"
+                }
+            ],
+            "dishIds": [
+                "14-PVR",
+                "19-PVR"
+            ]
+        },
+        {
+            "categoryId": 7,
+            "category": "Beverages & Deserts",
+            "availableTime": [
+                {
+                    "start": "08:00",
+                    "end": "23:00"
+                }
+            ],
+            "dishIds": [
+                "21-PVR"
+            ]
+        }
+    ]
+},
+{
+    "id": 2,
+    "name": "Pisharody'S Veg Restaurant",
+    "cuisines": "South Indian, Snacks",
+    "rating": 4.2,
+    "promoted": true,
+    "deliveryTime": "25-30 mins",
+    "minDeliveryTime": 25,
+    "maxDeliveryTime": 30,
+    "isVeg": true,
+    "offer": 15,
+    "priceStartsFrom": 120,
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/9/12/ab00e8ba-e1df-44ee-828f-c3e97e2c3567_ba7ea063-0a19-4c7c-9612-7aefbbab437d.jpg_compressed",
+    "alt": "pisharody's veg restaurant",
+    "place": "Kuruppam Road",
+    "masterDishList": [
+        {
+            "dishId": "1-PVR",
+            "name": "Paneer Butter Masala",
+            "price": 132,
+            "isVeg": true,
+            "rating": 4.5,
+            "description": "A flavourful preparataion with soft paneer cubes simmered in a rich and thick and tomato and onion based gravy served with butter on top",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/1a9c4a96bf6a8129958f36c88a57e927"
+        },
+        {
+            "dishId": "2-PVR",
+            "name": "Gobi Manchurian (Dry)",
+            "price": 127,
+            "isVeg": true,
+            "rating": 4.5,
+            "description": "Indo Chinese appetizer made with deep fried battered gobi florets tossed in Chinese Manchurian sauces.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/pzbkzoxnqxm7dt3mjwps"
+        },
+        {
+            "dishId": "3-PVR",
+            "name": "Gobi Manchurian",
+            "price": 115,
+            "isVeg": true,
+            "rating": 4.5,
+            "description": "A delectable combination of flavors and textures, this veggie Main Course will tantalize your taste buds with its mouthwatering appeal.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/72293f258055bbc256c14f54bcba0aa0"
+        },
+        {
+            "dishId": "4-PVR",
+            "name": "Paneer Tikka",
+            "price": 144,
+            "isVeg": true,
+            "rating": 4.7,
+            "description": "Perfectly marinated cottage cheeese cubes roasted to perfection in tandoor along with onions and bell peppers.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/51568ad40c0032ea8330253ab894681b"
+        },
+        {
+            "dishId": "5-PVR",
+            "name": "Kadai Paneer",
+            "price": 132,
+            "isVeg": true,
+            "rating": 4.7,
+            "description": "Kadaai paneer is a delicious Indian vegetarian dish comprising of paneer cooked in a gravy flavored with a special kadai masala.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/vpiqqk7ihurewzk9rqkm"
+        },
+        {
+            "dishId": "6-PVR",
+            "name": "Chilli Gobi (Dry)",
+            "price": 115,
+            "isVeg": true,
+            "rating": 4.9,
+            "description": "A delectable vegetarian delight with a tantalizing blend of flavors and textures, perfect for a satisfying main course option.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/kygsirtsrgdrpw7wb7zb"
+        },
+        {
+            "dishId": "7-PVR",
+            "name": "Chilli Paneer (Dry)",
+            "price": 150,
+            "isVeg": true,
+            "rating": 4.9,
+            "description": "Chilli paneer is a popular Indo-Chinese starter made by seasoning fried Indian cottage cheese aka paneer in chilli sauce.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/m5hoyx38vm8uwczbvypy"
+        },
+        {
+            "dishId": "8-PVR",
+            "name": "Aloo Gobi",
+            "price": 104,
+            "isVeg": true,
+            "rating": 4.6,
+            "description": "A flavorful and comforting main course featuring a blend of potatoes and cauliflower.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/kzu8n7vkglcfjo4tbxss"
+        },
+        {
+            "dishId": "9-PVR",
+            "name": "Masala Dosa",
+            "price": 68,
+            "isVeg": true,
+            "rating": 4.9,
+            "description": "A flavorful South Indian delicacy with a crispy and golden exterior, encasing a delectable filling, perfect for breakfast enthusiasts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/l56ly1rnxhq4t8eaujig"
+        },
+        {
+            "dishId": "10-PVR",
+            "name": "Ghee Roast",
+            "price": 69,
+            "isVeg": true,
+            "rating": 4.9,
+            "description": "A mouthwatering vegetarian delight packed with rich flavors and a golden crust.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/cose1gvlxphmsuzl7rml"
+        },
+        {
+            "dishId": "11-PVR",
+            "name": "Onion Uthappam",
+            "price": 69,
+            "isVeg": true,
+            "rating": 4.5,
+            "description": " Dosa with onions mixed into the batter and spread to a thick consistency served with 3 types of flavorful chutney and sambhar.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/iepy5bh25pynxqleauh5"
+        },
+        {
+            "dishId": "12-PVR",
+            "name": "Chilli Paratha",
+            "price": 86,
+            "isVeg": true,
+            "rating": 4.3,
+            "description": "A flavorsome and enticing Indian flatbread filled with delectable goodness, perfect for a satisfying and hearty main course experience.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/3/12/fe3f5fc3-5e51-43ac-87b5-54be17d57897_e70e046e-e402-40c8-82f3-27f5833cca1a.jpeg"
+        },
+        {
+            "dishId": "13-PVR",
+            "name": "Channa Masala",
+            "price": 92,
+            "isVeg": true,
+            "rating": 4.4,
+            "description": "A flavorful and aromatic Indian delicacy with tender chickpeas in a rich tomato-based gravy.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2025/1/18/8034cc4b-408e-4400-adc5-0125554365d7_eee26ba2-e6e1-48d7-a836-2a1e7ae686d4.JPG"
+        },
+        {
+            "dishId": "14-PVR",
+            "name": "Channa Bhatoore",
+            "price": 81,
+            "isVeg": true,
+            "rating": 5,
+            "description": "A flavorful and aromatic Indian delicacy with tender chickpeas in a rich tomato-based gravy with batoore.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/3/12/fd2a6dba-3b26-480d-81f0-5f2f5bf8aa01_ecb00957-d852-47d4-bfee-c807ae245b14.jpg"
+        },
+        {
+            "dishId": "15-PVR",
+            "name": "Chapathi Set",
+            "price": 63,
+            "isVeg": true,
+            "rating": 4.1,
+            "description": "[2 Pcs] Round, unleavened flatbreads made with whole wheat flour",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/3/12/19906d1f-374f-46ab-8dca-de67d3f5a3a3_5ec3bc32-4f0d-4fe8-b8fb-e6f0b4b8fd08.jpg_compressed"
+        },
+        {
+            "dishId": "16-PVR",
+            "name": "Poori Masala",
+            "price": 63,
+            "isVeg": true,
+            "rating": 4.6,
+            "description": "Fluffy fried bread served with flavorful potato curry, a classic South Indian favorite.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/3/12/12edd50f-a086-4304-920c-b5175309cb8f_03a342aa-52a8-4ecc-b893-0f27fdd15731.jpg_compressed"
+        },
+        {
+            "dishId": "17-PVR",
+            "name": "Sambar Vada",
+            "price": 46,
+            "isVeg": true,
+            "rating": 4.8,
+            "description": "A mouthwatering South Indian delicacy with a crispy vada immersed in flavorful sambar.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/3/12/2a8e6bcd-a98c-4cc4-b9aa-83ab1bb92b5f_2128bac2-daea-438b-bc0b-0cbc0e2b852b.jpg_compressed"
+        },
+        {
+            "dishId": "18-PVR",
+            "name": "Veg Fried Rice",
+            "price": 92,
+            "isVeg": true,
+            "rating": 4.9,
+            "description": "A flavorful and satisfying rice dish packed with a medley of vegetables and delightful seasonings.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/a1af5ebcdb868f3f549b253d4ea715d7"
+        },
+        {
+            "dishId": "19-PVR",
+            "name": "Veg Biriyari",
+            "price": 92,
+            "isVeg": true,
+            "rating": 4.7,
+            "description": "A flavorful rice dish with a harmonious blend of aromatic spices and savory vegetables.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/68e57aaf4239dd1a6f612f8f807dd564"
+        },
+        {
+            "dishId": "20-PVR",
+            "name": "Veg Noodles",
+            "price": 98,
+            "isVeg": true,
+            "rating": 5,
+            "description": "A delectable and flavorsome medley of vegetables mixed with delicate strands of noodles.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/k85tmoa9ewpme8ot8fbi"
+        },
+        {
+            "dishId": "21-PVR",
+            "name": "Masala Tea",
+            "price": 35,
+            "isVeg": true,
+            "rating": 5,
+            "description": "Indulge in a rich and aromatic hot beverage, bursting with exotic flavors and warm spices.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2025/1/20/b55cadd0-663f-4d94-8b7f-3c6dd2bc149b_53f806da-b42b-427a-98c9-059d7a8dfc45.JPG"
+        },
+        {
+            "dishId": "22-PVR",
+            "name": "Uzhunu Vada",
+            "price": 18,
+            "isVeg": true,
+            "rating": 4.2,
+            "description": "A crispy and savory South Indian delight, perfect for savoring during tea time or as a tasty snack.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/8/22/324eac67-7ce7-4804-8e41-94a907a2e671_85d76f10-db99-4493-98ea-e82eb216ae2f.jpg"
+        }
+    ],
+    "menu": [
+        {
+            "categoryId": 1,
+            "category": "Starters",
+            "availableTime": [
+                {
+                    "start": "11:00",
+                    "end": "23:00"
+                }
+            ],
+            "dishIds": [
+                "2-PVR",
+                "4-PVR",
+                "6-PVR",
+                "7-PVR"
+            ]
+        },
+        {
+            "categoryId": 2,
+            "category": "Breakfast",
+            "availableTime": [
+                {
+                    "start": "07:00",
+                    "end": "11:00"
+                }
+            ],
+            "dishIds": [
+                "9-PVR",
+                "10-PVR",
+                "11-PVR",
+                "14-PVR",
+                "15-PVR",
+                "16-PVR",
+                "17-PVR",
+                "22-PVR",
+                "21-PVR"
+            ]
+        },
+        {
+            "categoryId": 3,
+            "category": "Lunch",
+            "availableTime": [
+                {
+                    "start": "12:00",
+                    "end": "15:30"
+                }
+            ],
+            "dishIds": [
+                "1-PVR",
+                "3-PVR",
+                "5-PVR",
+                "8-PVR",
+                "12-PVR",
+                "13-PVR",
+                "15-PVR",
+                "18-PVR",
+                "19-PVR",
+                "20-PVR"
+            ]
+        },
+        {
+            "categoryId": 4,
+            "category": "Dinner",
+            "availableTime": [
+                {
+                    "start": "19:00",
+                    "end": "23:00"
+                }
+            ],
+            "dishIds": [
+                "1-PVR",
+                "3-PVR",
+                "5-PVR",
+                "8-PVR",
+                "12-PVR",
+                "13-PVR",
+                "15-PVR",
+                "18-PVR",
+                "19-PVR",
+                "20-PVR"
+            ]
+        },
+        {
+            "categoryId": 5,
+            "category": "Snacks",
+            "availableTime": [
+                {
+                    "start": "07:00",
+                    "end": "11:00"
+                },
+                {
+                    "start": "16:00",
+                    "end": "22:00"
+                }
+            ],
+            "dishIds": [
+                "17-PVR",
+                "22-PVR"
+            ]
+        },
+        {
+            "categoryId": 6,
+            "category": "Special",
+            "availableTime": [
+                {
+                    "start": "11:00",
+                    "end": "15:30"
+                }
+            ],
+            "dishIds": [
+                "14-PVR",
+                "19-PVR"
+            ]
+        },
+        {
+            "categoryId": 7,
+            "category": "Beverages & Deserts",
+            "availableTime": [
+                {
+                    "start": "08:00",
+                    "end": "23:00"
+                }
+            ],
+            "dishIds": [
+                "21-PVR"
+            ]
+        }
+    ]
+}
+
+]
+}

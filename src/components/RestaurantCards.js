@@ -1,6 +1,7 @@
 import {Link} from "react-router-dom";
 const RestaurantCards = (props) => {
   const { resData } = props;
+  console.log(resData);
   const { image, alt, name, rating, deliveryTime, cuisines, place,offer,priceStartsFrom,id} =
     resData ?? {};
   return (

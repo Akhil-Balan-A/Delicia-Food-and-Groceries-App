@@ -34,7 +34,7 @@ const Filter = ({
           <button onClick={onSortByPriceHighToLow} className="px-5 py-2 bg-red-500 text-white rounded hover:bg-red-700 transition duration-100">Price-High to Low</button>
         </div>
         <div className="clear-all-filter-features">
-          <button onClick={onClearAllFilterAndSort} className="px-5 py-2 bg-red-500 text-white rounded hover:bg-red-700 transition duration-100">Clear All Filter</button>
+          <button onClick={onClearAllFilterAndSort} className=" ml-40 px-5 py-2 bg-red-700 text-white rounded hover:bg-red-900 transition duration-100">Clear All Filter</button>
         </div>
       </div>
     </section>
